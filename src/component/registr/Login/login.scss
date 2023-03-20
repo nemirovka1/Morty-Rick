@@ -1,0 +1,38 @@
+.loginBtn{
+  margin-top: 30px;
+  margin-left: 10px;
+  position: relative;
+  align-items: center;
+  height: 48px;
+  font-size: 18px;
+  border: 2px solid #153d85 ;
+  cursor: pointer;
+  border-radius: 12px;
+  padding-left: 35px;
+  background-color: #fff;
+  top: -78px;
+  left: 400px;
+}
+.loginBtn::before{
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  padding: 7px;
+  background-image: url(../google_icon-icons.com_62736.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.loginBtn:hover{
+  cursor: pointer;
+  background-color: rgb(203, 203, 222);
+  border: 1px solid white;
+}
+@media screen and (max-width: 996px) {
+  .loginBtn{
+    left: 230px;
+  }
+}

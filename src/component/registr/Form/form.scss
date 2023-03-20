@@ -1,0 +1,43 @@
+.form__wrapper{
+  width: 400px;
+  margin: 0 auto;
+}
+.form__container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap:12px;
+  width: 100%;
+}
+.form__container_input{
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #ffffff;
+  color: black;
+}
+.form__container_label{
+  font-size: 15px;
+  font-weight: 400;
+  color: #153d85;
+}
+.form__container_btn{
+  width: 100px;
+  height: 48px;
+  font-size: 18px;
+  border: 2px solid #153d85 ;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.form__container_btn:hover{
+  cursor: pointer;
+  background-color: rgb(203, 203, 222);
+  border: 1px solid white;
+}
+@media screen and (max-width: 496px){
+  .form__wrapper{
+    width: 350px;
+  }
+}

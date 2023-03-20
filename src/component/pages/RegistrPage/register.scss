@@ -1,0 +1,37 @@
+.register__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.register__container_title {
+  text-align: center;
+  margin-top: 100px;
+  color: blue;
+
+}
+.register__container_text {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+}
+.register__container_gif{
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+.register__gif{
+  width: 500px;
+  height: 500px;
+  border: none;
+  pointer-events: none;
+}
+@media screen and (max-width: 496px){
+  .register__container_gif{
+    left: 0;
+    bottom: 40px;
+
+  }
+  .register__gif{
+    width: 350px;
+    height: 350px;
+  }
+}
